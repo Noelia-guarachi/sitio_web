@@ -1,0 +1,31 @@
+
+body {
+ background-color: #f5f5f5;
+}
+
+/* Sidebar */
+aside h5 {
+ border-bottom: 1px solid #ccc;
+ padding-bottom: 5px;
+}
+
+aside ul {
+ margin-left: 10px;
+}
+
+/* Producto */
+.card {
+ transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+ transform: scale(1.03);
+ background-color: #f8f9fa;
+ cursor: pointer;
+}
+
+/* Carrusel */
+.carousel-item img {
+ height: 400px;
+ object-fit: cover;
+}
